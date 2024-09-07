@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miaulove</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu">
+            <img class="menugato"  src="./img/menu.png" alt="menu">
+        </div>
+        <div class="barra">    
+            <input type="search" placeholder="buscar">  
+                <img class="buscar"  src="./img/buscar.png" alt="buscar">
+        </div>    
+    </nav>
+    <aside class="izq">
+        <fieldset>
+            <div class="titulo1">
+                <h2>miau<span>love</span></h2>
+                <img id="logo" src="./img/logo.png" alt="logo">
+            </div>
+            <div>
+                <ul class="lizq">
+                    <li>Inicio</li>
+                    <li>Subir Imagen</li>
+                    <li>Contato</li>
+                    <li>Favoritos</li>
+                    <li>Recientes</li>
+                </ul>
+            </div>
+            <div class="botonesI">
+                <button class="Conf">Configuración</button>
+                <button class="Cerrar">Cerrar Sesión</button>
+            </div>
+            <div class="derechosM">
+                <p>Todos los derechos reservados</p>
+                <p>miaulove</p>
+            </div>
+        </fieldset>
+    </aside>
+    <main>
+        <div class="titulo">
+            <h1>
+                ¡Únete y comparte tu amor por
+            </h1>
+            <h1>los gatitos!</h1>
+        </div>
+        <div class="botones">
+            <button class="boton1" onclick="cambiarColor(this)">Gatitos</button>
+            <button class="boton2" onclick="cambiarColor(this)">Juveniles</button>
+            <button class="boton3" onclick="cambiarColor(this)">Adultos</button>
+        </div>
+        <div class="imggatos">
+            <img class="gato"  src="./img/gato1.jpg" alt="gato1">
+            <img class="gato"  src="./img/gato2.jpg" alt="gato2">
+            <img class="gato"  src="./img/gato3.png" alt="gato3">
+            <img class="gato"  src="./img/gato4.png" alt="gato4">
+        </div>
+        <div class="likes">
+            <div class="borderlike">
+                <button class="botonlike likesE"><img class="like"  src="./img/like.png" alt="like"> <span class="numlike1"> 0 </span></button>
+            </div>
+            <div class="borderlike">
+                <button class="botonlike2 likesE"><img class="like"  src="./img/like.png" alt="like"> <span class="numlike2"> 0 </span></button>
+            </div>
+            <div class="borderlike">
+                <button class="botonlike3 likesE"><img class="like"  src="./img/like.png" alt="like"> <span class="numlike3"> 0 </span></button>
+            </div>
+            <div class="borderlike">
+                <button class="botonlike4 likesE"><img class="like"  src="./img/like.png" alt="like"> <span class="numlike4"> 0 </span></button>
+            </div>        
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
